@@ -15,6 +15,7 @@
 		DC394C8325F5D3D7004BCCDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC394C8125F5D3D7004BCCDD /* LaunchScreen.storyboard */; };
 		DC394C8E25F5D3D8004BCCDD /* magic8BallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC394C8D25F5D3D8004BCCDD /* magic8BallTests.swift */; };
 		DC394C9925F5D3D8004BCCDD /* magic8BallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC394C9825F5D3D8004BCCDD /* magic8BallUITests.swift */; };
+		DC9A761D25F87D09001B7DF2 /* presentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9A761C25F87D09001B7DF2 /* presentViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		DC394C9425F5D3D8004BCCDD /* magic8BallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = magic8BallUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC394C9825F5D3D8004BCCDD /* magic8BallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = magic8BallUITests.swift; sourceTree = "<group>"; };
 		DC394C9A25F5D3D8004BCCDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC9A761C25F87D09001B7DF2 /* presentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = presentViewController.swift; path = ../../presentViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				DC394C7625F5D3D2004BCCDD /* AppDelegate.swift */,
 				DC394C7825F5D3D2004BCCDD /* SceneDelegate.swift */,
 				DC394C7A25F5D3D2004BCCDD /* ViewController.swift */,
+				DC9A761C25F87D09001B7DF2 /* presentViewController.swift */,
 				DC394C7C25F5D3D2004BCCDD /* Main.storyboard */,
 				DC394C7F25F5D3D7004BCCDD /* Assets.xcassets */,
 				DC394C8125F5D3D7004BCCDD /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			files = (
 				DC394C7B25F5D3D2004BCCDD /* ViewController.swift in Sources */,
 				DC394C7725F5D3D2004BCCDD /* AppDelegate.swift in Sources */,
+				DC9A761D25F87D09001B7DF2 /* presentViewController.swift in Sources */,
 				DC394C7925F5D3D2004BCCDD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
